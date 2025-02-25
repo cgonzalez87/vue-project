@@ -29,6 +29,7 @@ export default defineConfigWithVueTs(
   skipFormatting,
   {
     rules: {
+      'vue/multi-word-component-names': 0,
       // 'no-console': 'error',
       // 'no-debugger': 'error',
     },
