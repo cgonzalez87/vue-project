@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { supabase } from '@/lib/supabaseClient'
+// import { supabase } from '@/lib/supabaseClient'
+import { RouterView } from 'vue-router';
 
-console.log(supabase)
+// console.log(supabase)
 </script>
 
 <template>
@@ -9,3 +10,7 @@ console.log(supabase)
     <RouterView />
   </main>
 </template>
+
+<style>
+/* Add any necessary styles here */
+</style>
